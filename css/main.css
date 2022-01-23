@@ -661,7 +661,7 @@ input[type=search] {
 .health {
   background-image: url(../../img/runners\.jpg);
   background-repeat: no-repeat;
-  background-position: calc(50%);
+  background-size: cover;
 }
 
 .health__freedom {
