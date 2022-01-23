@@ -1,0 +1,61 @@
+    header{
+        padding-top: 30px;
+    }
+    
+    .header{
+        display: flex;
+        align-items: center;
+    }
+    
+    .header__logo{
+        margin-right: auto;
+    }
+    
+    .header__list{
+        display: flex;
+        list-style: none;
+        font-weight:700;
+        font-size:12px;
+        line-height:15px;
+        margin: 0;
+    }
+    
+    .header__item{
+        font-family: "Roboto";
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        padding-left:32px;
+        padding-top: 6px;
+        padding-bottom:12px ;
+    }
+    .header__item:first-child{
+        padding-left: 0;
+    }
+    
+    .header__link{
+        text-decoration:none;
+        color:#A2A2A2;
+        transition: all 0.4s ease;
+    }
+
+    .header__link:hover{
+        display: block;
+        color:#1E1E1E;
+        border-bottom:2px solid #9B9B9B ;
+    }
+        
+    .header__search{
+        border:none ;
+        margin-left: 40px;
+        padding: 6px 0 12px;
+        border-bottom:2px solid #9B9B9B ;
+    }
+
+    input[type=search] {
+        padding: 5px 5px;
+        
+      }
+        
+        
+        

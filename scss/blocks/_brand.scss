@@ -1,0 +1,57 @@
+
+.brand{
+    background-image: url(../../img/watch-in-hand.png);
+    background-repeat: no-repeat;
+    // background-size: ;
+    background-position: calc(50% + 472px) calc(50% + 5px);
+    padding-top: 246px;
+    padding-bottom: 185px;
+}
+
+.brand__freedom{
+    width: 500px;
+}
+
+.brand__title{
+    font-family:"Roboto";
+    font-weight: 700;
+    font-size:50px ;
+    line-height:60px ;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.brand__text{
+    font-family:"Roboto" ;
+    font-weight: 400;
+    font-size:16px ;
+    line-height:24px;
+    color: #777777;
+    padding-left: 40px;
+    border-left: 3px solid #888888;
+    margin-bottom: 30px;
+}
+
+
+
+
+.brand__link{
+    color:#FFFFFF;
+    display: block;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size:18px ;
+    line-height:27px ;
+    text-decoration: none;
+    width: 260px;
+    height: 51px;
+    background-color: #EA625C;
+    padding: 12px 38px;
+    text-align: center;
+    
+}
+
+.brand__link:hover{
+    // opacity: 0.8;
+    background-color: #CE4F49;
+}
